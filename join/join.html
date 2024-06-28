@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./rogin.css">
+    <style>
+        form > input{
+            margin-top: 68px
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>회원가입</h1>
+        <input class="get" id="id" type="text" placeholder="아이디" onkeydown="getid()">
+        <input class="get" id="pw" type="text" placeholder="비밀번호" onkeydown="getpw()">
+        <input class="get" id="chpw" type="text" placeholder="비밀번호 확인" onkeydown="getchpw()">
+        <form>
+            <input id="save" type="radio">
+            <label for="save">아이디 저장</label>
+        </form>
+        <button onclick="al()">로그인</button>
+    </div>
+</body>
+<script src="./rogin.js"></script>
+</html>
